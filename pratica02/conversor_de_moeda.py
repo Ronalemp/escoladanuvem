@@ -8,3 +8,15 @@ O programa deve calcular e exibir os valores convertidos, arredondando para duas
 """
 
 # Conversor de Moeda
+valor_reais = 100.00 
+taxa_dolar = 5.60
+taxa_euro = 6.60
+valor_dolares = valor_reais / taxa_dolar
+valor_dolares = round(valor_dolares, 2)
+valor_euros = valor_reais / taxa_euro
+valor_euros = round(valor_euros, 2)
+print("valor_reais")
+
+print(f"Valor em Reais: R$ {valor_reais:.2f}")
+print(f"Valor em Dólares: $ {valor_dolares:.2f}")
+print(f"Valor em Euros: € {valor_euros:.2f}")

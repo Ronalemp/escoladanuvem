@@ -37,4 +37,3 @@ while True:
 # Exibe o resultado final
 print("\n--- Resumo ---")
 print(f"Quantidade de números pares: {pares}")
-print(f"Quantidade de números ímpares: {impares}")

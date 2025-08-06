@@ -1,1 +1,4 @@
 explicacao/
+venv/
+# This file is used to ignore files and directories that should not be tracked by Git.
+# It is typically used to avoid committing temporary files, build artifacts, or sensitive information.  
